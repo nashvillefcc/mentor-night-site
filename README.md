@@ -9,7 +9,6 @@ This project was bootstrapped with the Gatsby starter [gatsby-starter-tailwind](
 - [Gatsby](https://www.gatsbyjs.org/)
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [PurgeCSS](https://www.purgecss.com/)
 - [Prettier](https://prettier.io/)
 
 > "Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps." -[Gatsby](https://www.gatsbyjs.org/)

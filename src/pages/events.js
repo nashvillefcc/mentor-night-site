@@ -1,33 +1,17 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-function IndexPage() {
-  const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "ENwoNYxWwAAGybu.jpeg" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `);
-
+function AboutPage() {
   return (
     <Layout>
       <SEO keywords={[`nashville`, `freecodecamp`]} title="Home" />
 
       <section className="text-center">
         <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
-          Hey there! Welcome!
+          This is the Events page!
         </h2>
-
-        <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 
         <p className="leading-loose">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -43,4 +27,4 @@ function IndexPage() {
   );
 }
 
-export default IndexPage;
+export default AboutPage;
