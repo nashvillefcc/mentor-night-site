@@ -7,7 +7,7 @@ module.exports = {
     title: `Nashville freeCodeCamp Mentor Night`,
     description: `A meetup for developers, designers, and students in Middle Tennessee involved in the freeCodeCamp.com learning community`,
   },
-  pathPrefix: '',
+  pathPrefix: '/mentor-night-site',
   plugins: [
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
