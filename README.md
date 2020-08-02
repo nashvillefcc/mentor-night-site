@@ -1,6 +1,6 @@
 # Nashville's Mentor Night Site
 
-This project is an educational exercise meant to familiarize developers with graphing libraries. It will also serve as a data vizualization toolkit for members of FCC Nashville in future endeavors.
+This is the source code for our group's upcoming public Web site. Development mostly happens in the `/src` folder, while the build files are in the `/docs` folder. Old, archived progress for this project is located [at this repository](https://github.com/nashvillefcc/nashvillefcc2020website). Since we moved to Gatsby, all progress has been logged on this repository.
 
 ## Built With
 
