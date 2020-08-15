@@ -46,11 +46,19 @@ function Header() {
           {[
             {
               route: `/about`,
-              title: `About`,
+              title: `About Us`,
             },
             {
               route: `/events`,
               title: `Events`,
+            },
+            {
+              route: `/blog`,
+              title: `Blog`,
+            },
+            {
+              route: `/projects`,
+              title: `Projects`,
             },
             {
               route: `/sponsors`,

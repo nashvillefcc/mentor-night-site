@@ -3,3 +3,15 @@
 @tailwind components;
 /*! purgecss end ignore */
 @tailwind utilities;
+
+a {
+  @apply font-semibold underline text-blue-500;
+}
+
+a:hover {
+  @apply text-blue-700;
+}
+
+ul {
+  list-style: inside;
+}
