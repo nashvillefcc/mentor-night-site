@@ -2,9 +2,11 @@
 
 When contributing to this repository, please notify us first before assigning yourself to the ticket. We can be contacted via Discord or GitHub. See the [task board](https://github.com/nashvillefcc/mentor-night-site/projects/1) for a list of features and bugs we're working on.
 
-## Pull Request Process
+## Review Process
 
-Please create pull requests against our `develop` branch. You can use the following template for your PR description:
+When an issue is complete and ready for review, please create a pull request from your feature branch to our `develop` branch. Each issue should correspond to a single pull request. We require at least 2 approvals from other developers, and 1 of those must be a senior developer.
+
+You can use the following template for your PR description:
 
 ```txt
 Resolves #[Replace with issue number]
@@ -14,6 +16,8 @@ Resolves #[Replace with issue number]
 ## How Can I Test This?
 [Replace with instructions for another developer to quickly test our your new code. If they need to copy/paste code from here to get it working, provide the code below in brackets.]
 ```
+
+Once the pull request is generated and ready for review, please notify the team on Discord.
 
 ## Code of Conduct
 
