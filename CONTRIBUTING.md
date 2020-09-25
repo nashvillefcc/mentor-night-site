@@ -2,6 +2,12 @@
 
 When contributing to this repository, please notify us first before assigning yourself to the ticket. We can be contacted via Discord or GitHub. See the [task board](https://github.com/nashvillefcc/mentor-night-site/projects/1) for a list of features and bugs we're working on.
 
+## Git Conventions
+
+Development to the `master` branch is locked. Code changes should be introduced through feature branches and reviewed through a pull request. A short primer can be found here: [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/).
+
+We will not be enforcing a naming convention for branch names, but please keep them descriptive or related to the feature that you worked on.
+
 ## Review Process
 
 When an issue is complete and ready for review, please create a pull request from your feature branch to our `develop` branch. Each issue should correspond to a single pull request. We require at least 2 approvals from other developers, and 1 of those must be a senior developer.
