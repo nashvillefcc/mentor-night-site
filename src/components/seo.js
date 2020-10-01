@@ -25,32 +25,40 @@ function SEO({ description, lang, meta, keywords, title }) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: 'A place for Q&A and free mentorship',
         },
-        // {
-        //   property: `og:title`,
-        //   content: title,
-        // },
-        // {
-        //   property: `og:description`,
-        //   content: metaDescription,
-        // },
-        // {
-        //   property: `og:type`,
-        //   content: `website`,
-        // },
-        // {
-        //   name: `twitter:card`,
-        //   content: `summary`,
-        // },
-        // {
-        //   name: `twitter:creator`,
-        //   content: site.siteMetadata.author,
-        // },
-        // {
-        //   name: `twitter:title`,
-        //   content: title,
-        // },
+        {
+          property: `og:title`,
+          content: 'Mentor Night | Free Code Camp',
+        },
+        {
+          property: `og:description`,
+          content: 'A place to be coached or to coach for free along your developer journey',
+        },
+        {
+          property: `og:type`,
+          content: `website`,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary`,
+        },
+        {
+          name: `twitter:creator`,
+          content: '@freeCodeCamp,'
+        },
+        {
+          name:'url',
+          content:"https://nashvillefcc.github.io/mentor-night-site/", //Added line 52 and it's key:value pair because the content key was present in other examples
+        },
+        {
+          name: `twitter:title`,
+          content: 'Mentor Night on Twitter',
+        },
+        {
+          name: 'og:image',
+          content: URL('../images/mnsCard.png'),
+        },
         // {
         //   name: `twitter:description`,
         //   content: metaDescription,
