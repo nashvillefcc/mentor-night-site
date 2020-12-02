@@ -24,35 +24,35 @@ function SEO({ description, lang, meta, keywords, title }) {
       }}
       meta={[
         {
-          name: `description`,
-          content: 'A place for Q&A and free mentorship',
+          name: `description',
+          content: metaDescription,
         },
         {
-          property: `og:title`,
+          property: 'og:title',
           content: 'Mentor Night | Free Code Camp',
         },
         {
-          property: `og:description`,
-          content: 'A place to be coached or to coach for free along your developer journey',
+          property: 'og:description',
+          content: 'A place to coach or be coached for free on your developer journey',
         },
         {
-          property: `og:type`,
-          content: `website`,
+          property: 'og:type',
+          content: 'website',
         },
         {
-          name: `twitter:card`,
-          content: `summary`,
+          name: 'twitter:card',
+          content: 'summary',
         },
         {
-          name: `twitter:creator`,
-          content: '@freeCodeCamp,'
+          name: 'twitter:creator',
+          content: '@https://twitter.com/nashvillefcc,'
         },
         {
           name:'url',
-          content:"https://nashvillefcc.github.io/mentor-night-site/", //Added line 52 and it's key:value pair because the content key was present in other examples
+          content:'https://nashvillefcc.github.io/mentor-night-site/', 
         },
         {
-          name: `twitter:title`,
+          name: 'twitter:title',
           content: 'Mentor Night on Twitter',
         },
         {
@@ -60,7 +60,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: URL('../images/mnsCard.png'),
         },
         // {
-        //   name: `twitter:description`,
+        //   name: 'twitter:description',
         //   content: metaDescription,
         // },
       ]
