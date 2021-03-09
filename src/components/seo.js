@@ -20,20 +20,20 @@ function SEO({ description, lang, meta, keywords, title }) {
   return (
     <Helmet
       htmlAttributes={{
-        lang,
+        lang, 
       }}
       meta={[
         {
-          name: `description',
+          name: 'description',
           content: metaDescription,
         },
         {
           property: 'og:title',
-          content: 'Mentor Night | Free Code Camp',
+          content: metaTitle,
         },
         {
           property: 'og:description',
-          content: 'A place to coach or be coached for free on your developer journey',
+          content: metaDescription,
         },
         {
           property: 'og:type',
@@ -41,11 +41,11 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: 'twitter:card',
-          content: 'summary',
+          content: metaDescription, 
         },
         {
           name: 'twitter:creator',
-          content: '@https://twitter.com/nashvillefcc,'
+          content: '@https://twitter.com/nashvillefcc',
         },
         {
           name:'url',
@@ -53,16 +53,12 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: 'twitter:title',
-          content: 'Mentor Night on Twitter',
+          content: metaTitle,
         },
         {
           name: 'og:image',
           content: URL('../images/mnsCard.png'),
         },
-        // {
-        //   name: 'twitter:description',
-        //   content: metaDescription,
-        // },
       ]
         .concat(
           keywords.length > 0
