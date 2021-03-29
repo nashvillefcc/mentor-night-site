@@ -10,7 +10,7 @@ module.exports = {
   pathPrefix: '/mentor-night-site',
   plugins: [
     `gatsby-plugin-eslint`,
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-react-helmet`, 
     // TODO: figure this out
     // https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/?=
     {

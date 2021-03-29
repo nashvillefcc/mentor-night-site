@@ -20,41 +20,45 @@ function SEO({ description, lang, meta, keywords, title }) {
   return (
     <Helmet
       htmlAttributes={{
-        lang,
+        lang, 
       }}
       meta={[
         {
-          name: `description`,
+          name: 'description',
           content: metaDescription,
         },
-        // {
-        //   property: `og:title`,
-        //   content: title,
-        // },
-        // {
-        //   property: `og:description`,
-        //   content: metaDescription,
-        // },
-        // {
-        //   property: `og:type`,
-        //   content: `website`,
-        // },
-        // {
-        //   name: `twitter:card`,
-        //   content: `summary`,
-        // },
-        // {
-        //   name: `twitter:creator`,
-        //   content: site.siteMetadata.author,
-        // },
-        // {
-        //   name: `twitter:title`,
-        //   content: title,
-        // },
-        // {
-        //   name: `twitter:description`,
-        //   content: metaDescription,
-        // },
+        {
+          property: 'og:title',
+          content: metaTitle,
+        },
+        {
+          property: 'og:description',
+          content: metaDescription,
+        },
+        {
+          property: 'og:type',
+          content: 'website',
+        },
+        {
+          name: 'twitter:card',
+          content: metaDescription, 
+        },
+        {
+          name: 'twitter:creator',
+          content: '@https://twitter.com/nashvillefcc',
+        },
+        {
+          name:'url',
+          content:'https://nashvillefcc.github.io/mentor-night-site/', 
+        },
+        {
+          name: 'twitter:title',
+          content: metaTitle,
+        },
+        {
+          name: 'og:image',
+          content: URL('../images/mnsCard.png'),
+        },
       ]
         .concat(
           keywords.length > 0
