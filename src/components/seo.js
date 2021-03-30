@@ -16,11 +16,12 @@ function SEO({ description, lang, meta, keywords, title }) {
   `);
 
   const metaDescription = description || site.siteMetadata.description;
+  const metaTitle = title || site.siteMetadata.title;
 
   return (
     <Helmet
       htmlAttributes={{
-        lang, 
+        lang,
       }}
       meta={[
         {
@@ -41,15 +42,15 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: 'twitter:card',
-          content: metaDescription, 
+          content: metaDescription,
         },
         {
           name: 'twitter:creator',
           content: '@https://twitter.com/nashvillefcc',
         },
         {
-          name:'url',
-          content:'https://nashvillefcc.github.io/mentor-night-site/', 
+          name: 'url',
+          content: 'https://nashvillefcc.github.io/mentor-night-site/',
         },
         {
           name: 'twitter:title',
