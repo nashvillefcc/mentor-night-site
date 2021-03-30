@@ -56,10 +56,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           name: 'twitter:title',
           content: metaTitle,
         },
-        {
-          name: 'og:image',
-          content: URL('../images/mnsCard.png'),
-        },
+        // {
+        //   name: 'og:image',
+        //   content: new URL('../images/mnsCard.png'),
+        // },
       ]
         .concat(
           keywords.length > 0
