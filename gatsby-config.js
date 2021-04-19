@@ -6,11 +6,12 @@ module.exports = {
   siteMetadata: {
     title: `Nashville freeCodeCamp Mentor Night`,
     description: `A meetup for developers, designers, and students in Middle Tennessee involved in the freeCodeCamp.com learning community`,
+    baseUrl: 'https://nashvillefcc.github.io/mentor-night-site',
   },
   pathPrefix: '/mentor-night-site',
   plugins: [
     `gatsby-plugin-eslint`,
-    `gatsby-plugin-react-helmet`, 
+    `gatsby-plugin-react-helmet`,
     // TODO: figure this out
     // https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/?=
     {

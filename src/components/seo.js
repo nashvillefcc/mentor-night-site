@@ -10,6 +10,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         siteMetadata {
           title
           description
+          baseUrl
         }
       }
     }
@@ -58,7 +59,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: 'og:image',
-          content: new URL('./mnsCard.png'),
+          content: new URL('/mnsCard.png', site.siteMetadata.baseUrl),
         },
       ]
         .concat(
