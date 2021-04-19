@@ -42,6 +42,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: 'website',
         },
         {
+          name: 'og:image',
+          content: new URL(site.siteMetadata.baseUrl + '/mnsCard.png'),
+        },
+        {
           name: 'twitter:card',
           content: metaDescription,
         },
@@ -50,16 +54,16 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: '@https://twitter.com/nashvillefcc',
         },
         {
-          name: 'url',
-          content: 'https://nashvillefcc.github.io/mentor-night-site/',
-        },
-        {
           name: 'twitter:title',
           content: metaTitle,
         },
         {
-          name: 'og:image',
+          name: 'twitter:image',
           content: new URL(site.siteMetadata.baseUrl + '/mnsCard.png'),
+        },
+        {
+          name: 'url',
+          content: 'https://nashvillefcc.github.io/mentor-night-site/',
         },
       ]
         .concat(
